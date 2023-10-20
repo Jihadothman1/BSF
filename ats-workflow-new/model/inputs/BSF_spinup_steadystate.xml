@@ -4,7 +4,7 @@
       <Parameter name="mesh type" type="string" value="read mesh file" />
       <Parameter name="build columns from set" type="string" value="surface" />
       <ParameterList name="read mesh file parameters" type="ParameterList">
-        <Parameter name="file" type="string" value="../../data/examples/BSF/processed/watershed_mesh.exo" />
+        <Parameter name="file" type="string" value="../../data/examples/BSF/processed/watershed_mesh-nlcd-lc.exo" />
       </ParameterList>
     </ParameterList>
     <ParameterList name="surface" type="ParameterList">
@@ -63,700 +63,707 @@
     <ParameterList name="1601020302" type="ParameterList">
       <Parameter name="region type" type="string" value="labeled set" />
       <Parameter name="label" type="string" value="10000" />
-      <Parameter name="file" type="string" value="../../data/examples/BSF/processed/watershed_mesh.exo" />
+      <Parameter name="file" type="string" value="../../data/examples/BSF/processed/watershed_mesh-nlcd-lc.exo" />
       <Parameter name="format" type="string" value="Exodus II" />
       <Parameter name="entity" type="string" value="CELL" />
     </ParameterList>
     <ParameterList name="1601020302 boundary" type="ParameterList">
       <Parameter name="region type" type="string" value="labeled set" />
       <Parameter name="label" type="string" value="10002" />
-      <Parameter name="file" type="string" value="../../data/examples/BSF/processed/watershed_mesh.exo" />
+      <Parameter name="file" type="string" value="../../data/examples/BSF/processed/watershed_mesh-nlcd-lc.exo" />
       <Parameter name="format" type="string" value="Exodus II" />
       <Parameter name="entity" type="string" value="FACE" />
     </ParameterList>
     <ParameterList name="1601020302 outlet" type="ParameterList">
       <Parameter name="region type" type="string" value="labeled set" />
       <Parameter name="label" type="string" value="10003" />
-      <Parameter name="file" type="string" value="../../data/examples/BSF/processed/watershed_mesh.exo" />
+      <Parameter name="file" type="string" value="../../data/examples/BSF/processed/watershed_mesh-nlcd-lc.exo" />
       <Parameter name="format" type="string" value="Exodus II" />
       <Parameter name="entity" type="string" value="FACE" />
     </ParameterList>
     <ParameterList name="1601020302 surface" type="ParameterList">
       <Parameter name="region type" type="string" value="labeled set" />
       <Parameter name="label" type="string" value="10001" />
-      <Parameter name="file" type="string" value="../../data/examples/BSF/processed/watershed_mesh.exo" />
+      <Parameter name="file" type="string" value="../../data/examples/BSF/processed/watershed_mesh-nlcd-lc.exo" />
       <Parameter name="format" type="string" value="Exodus II" />
       <Parameter name="entity" type="string" value="FACE" />
     </ParameterList>
-    <ParameterList name="MODIS Croplands" type="ParameterList">
+    <ParameterList name="Deciduous Forest" type="ParameterList">
       <Parameter name="region type" type="string" value="labeled set" />
-      <Parameter name="label" type="string" value="12" />
-      <Parameter name="file" type="string" value="../../data/examples/BSF/processed/watershed_mesh.exo" />
+      <Parameter name="label" type="string" value="41" />
+      <Parameter name="file" type="string" value="../../data/examples/BSF/processed/watershed_mesh-nlcd-lc.exo" />
       <Parameter name="format" type="string" value="Exodus II" />
       <Parameter name="entity" type="string" value="FACE" />
     </ParameterList>
-    <ParameterList name="MODIS Evergreen Needleleaf Forests" type="ParameterList">
+    <ParameterList name="Evergreen Forest" type="ParameterList">
       <Parameter name="region type" type="string" value="labeled set" />
-      <Parameter name="label" type="string" value="1" />
-      <Parameter name="file" type="string" value="../../data/examples/BSF/processed/watershed_mesh.exo" />
+      <Parameter name="label" type="string" value="42" />
+      <Parameter name="file" type="string" value="../../data/examples/BSF/processed/watershed_mesh-nlcd-lc.exo" />
       <Parameter name="format" type="string" value="Exodus II" />
       <Parameter name="entity" type="string" value="FACE" />
     </ParameterList>
-    <ParameterList name="MODIS Grasslands" type="ParameterList">
+    <ParameterList name="Other" type="ParameterList">
       <Parameter name="region type" type="string" value="labeled set" />
-      <Parameter name="label" type="string" value="10" />
-      <Parameter name="file" type="string" value="../../data/examples/BSF/processed/watershed_mesh.exo" />
+      <Parameter name="label" type="string" value="99" />
+      <Parameter name="file" type="string" value="../../data/examples/BSF/processed/watershed_mesh-nlcd-lc.exo" />
+      <Parameter name="format" type="string" value="Exodus II" />
+      <Parameter name="entity" type="string" value="FACE" />
+    </ParameterList>
+    <ParameterList name="Shrub/Scrub" type="ParameterList">
+      <Parameter name="region type" type="string" value="labeled set" />
+      <Parameter name="label" type="string" value="52" />
+      <Parameter name="file" type="string" value="../../data/examples/BSF/processed/watershed_mesh-nlcd-lc.exo" />
       <Parameter name="format" type="string" value="Exodus II" />
       <Parameter name="entity" type="string" value="FACE" />
     </ParameterList>
     <ParameterList name="bottom" type="ParameterList">
       <Parameter name="region type" type="string" value="labeled set" />
       <Parameter name="label" type="string" value="1" />
-      <Parameter name="file" type="string" value="../../data/examples/BSF/processed/watershed_mesh.exo" />
+      <Parameter name="file" type="string" value="../../data/examples/BSF/processed/watershed_mesh-nlcd-lc.exo" />
       <Parameter name="format" type="string" value="Exodus II" />
       <Parameter name="entity" type="string" value="FACE" />
     </ParameterList>
     <ParameterList name="external_sides" type="ParameterList">
       <Parameter name="region type" type="string" value="labeled set" />
       <Parameter name="label" type="string" value="3" />
-      <Parameter name="file" type="string" value="../../data/examples/BSF/processed/watershed_mesh.exo" />
+      <Parameter name="file" type="string" value="../../data/examples/BSF/processed/watershed_mesh-nlcd-lc.exo" />
       <Parameter name="format" type="string" value="Exodus II" />
       <Parameter name="entity" type="string" value="FACE" />
     </ParameterList>
     <ParameterList name="surface" type="ParameterList">
       <Parameter name="region type" type="string" value="labeled set" />
       <Parameter name="label" type="string" value="2" />
-      <Parameter name="file" type="string" value="../../data/examples/BSF/processed/watershed_mesh.exo" />
+      <Parameter name="file" type="string" value="../../data/examples/BSF/processed/watershed_mesh-nlcd-lc.exo" />
       <Parameter name="format" type="string" value="Exodus II" />
       <Parameter name="entity" type="string" value="FACE" />
     </ParameterList>
     <ParameterList name="surface domain outlet" type="ParameterList">
       <Parameter name="region type" type="string" value="labeled set" />
       <Parameter name="label" type="string" value="10004" />
-      <Parameter name="file" type="string" value="../../data/examples/BSF/processed/watershed_mesh.exo" />
+      <Parameter name="file" type="string" value="../../data/examples/BSF/processed/watershed_mesh-nlcd-lc.exo" />
       <Parameter name="format" type="string" value="Exodus II" />
       <Parameter name="entity" type="string" value="FACE" />
     </ParameterList>
     <ParameterList name="GLHYMPS-761134" type="ParameterList">
       <Parameter name="region type" type="string" value="labeled set" />
       <Parameter name="label" type="string" value="100" />
-      <Parameter name="file" type="string" value="../../data/examples/BSF/processed/watershed_mesh.exo" />
+      <Parameter name="file" type="string" value="../../data/examples/BSF/processed/watershed_mesh-nlcd-lc.exo" />
       <Parameter name="format" type="string" value="Exodus II" />
       <Parameter name="entity" type="string" value="CELL" />
     </ParameterList>
     <ParameterList name="GLHYMPS-1792208" type="ParameterList">
       <Parameter name="region type" type="string" value="labeled set" />
       <Parameter name="label" type="string" value="101" />
-      <Parameter name="file" type="string" value="../../data/examples/BSF/processed/watershed_mesh.exo" />
+      <Parameter name="file" type="string" value="../../data/examples/BSF/processed/watershed_mesh-nlcd-lc.exo" />
       <Parameter name="format" type="string" value="Exodus II" />
       <Parameter name="entity" type="string" value="CELL" />
     </ParameterList>
     <ParameterList name="GLHYMPS-760533" type="ParameterList">
       <Parameter name="region type" type="string" value="labeled set" />
       <Parameter name="label" type="string" value="102" />
-      <Parameter name="file" type="string" value="../../data/examples/BSF/processed/watershed_mesh.exo" />
+      <Parameter name="file" type="string" value="../../data/examples/BSF/processed/watershed_mesh-nlcd-lc.exo" />
       <Parameter name="format" type="string" value="Exodus II" />
       <Parameter name="entity" type="string" value="CELL" />
     </ParameterList>
     <ParameterList name="GLHYMPS-760168" type="ParameterList">
       <Parameter name="region type" type="string" value="labeled set" />
       <Parameter name="label" type="string" value="103" />
-      <Parameter name="file" type="string" value="../../data/examples/BSF/processed/watershed_mesh.exo" />
+      <Parameter name="file" type="string" value="../../data/examples/BSF/processed/watershed_mesh-nlcd-lc.exo" />
       <Parameter name="format" type="string" value="Exodus II" />
       <Parameter name="entity" type="string" value="CELL" />
     </ParameterList>
     <ParameterList name="GLHYMPS-760236" type="ParameterList">
       <Parameter name="region type" type="string" value="labeled set" />
       <Parameter name="label" type="string" value="104" />
-      <Parameter name="file" type="string" value="../../data/examples/BSF/processed/watershed_mesh.exo" />
+      <Parameter name="file" type="string" value="../../data/examples/BSF/processed/watershed_mesh-nlcd-lc.exo" />
       <Parameter name="format" type="string" value="Exodus II" />
       <Parameter name="entity" type="string" value="CELL" />
     </ParameterList>
     <ParameterList name="GLHYMPS-815253" type="ParameterList">
       <Parameter name="region type" type="string" value="labeled set" />
       <Parameter name="label" type="string" value="105" />
-      <Parameter name="file" type="string" value="../../data/examples/BSF/processed/watershed_mesh.exo" />
+      <Parameter name="file" type="string" value="../../data/examples/BSF/processed/watershed_mesh-nlcd-lc.exo" />
       <Parameter name="format" type="string" value="Exodus II" />
       <Parameter name="entity" type="string" value="CELL" />
     </ParameterList>
     <ParameterList name="NRCS-482814" type="ParameterList">
       <Parameter name="region type" type="string" value="labeled set" />
       <Parameter name="label" type="string" value="1000" />
-      <Parameter name="file" type="string" value="../../data/examples/BSF/processed/watershed_mesh.exo" />
+      <Parameter name="file" type="string" value="../../data/examples/BSF/processed/watershed_mesh-nlcd-lc.exo" />
       <Parameter name="format" type="string" value="Exodus II" />
       <Parameter name="entity" type="string" value="CELL" />
     </ParameterList>
     <ParameterList name="NRCS-482816" type="ParameterList">
       <Parameter name="region type" type="string" value="labeled set" />
       <Parameter name="label" type="string" value="1001" />
-      <Parameter name="file" type="string" value="../../data/examples/BSF/processed/watershed_mesh.exo" />
+      <Parameter name="file" type="string" value="../../data/examples/BSF/processed/watershed_mesh-nlcd-lc.exo" />
       <Parameter name="format" type="string" value="Exodus II" />
       <Parameter name="entity" type="string" value="CELL" />
     </ParameterList>
     <ParameterList name="NRCS-482815" type="ParameterList">
       <Parameter name="region type" type="string" value="labeled set" />
       <Parameter name="label" type="string" value="1002" />
-      <Parameter name="file" type="string" value="../../data/examples/BSF/processed/watershed_mesh.exo" />
+      <Parameter name="file" type="string" value="../../data/examples/BSF/processed/watershed_mesh-nlcd-lc.exo" />
       <Parameter name="format" type="string" value="Exodus II" />
       <Parameter name="entity" type="string" value="CELL" />
     </ParameterList>
     <ParameterList name="NRCS-482839" type="ParameterList">
       <Parameter name="region type" type="string" value="labeled set" />
       <Parameter name="label" type="string" value="1003" />
-      <Parameter name="file" type="string" value="../../data/examples/BSF/processed/watershed_mesh.exo" />
+      <Parameter name="file" type="string" value="../../data/examples/BSF/processed/watershed_mesh-nlcd-lc.exo" />
       <Parameter name="format" type="string" value="Exodus II" />
       <Parameter name="entity" type="string" value="CELL" />
     </ParameterList>
     <ParameterList name="NRCS-482840" type="ParameterList">
       <Parameter name="region type" type="string" value="labeled set" />
       <Parameter name="label" type="string" value="1004" />
-      <Parameter name="file" type="string" value="../../data/examples/BSF/processed/watershed_mesh.exo" />
+      <Parameter name="file" type="string" value="../../data/examples/BSF/processed/watershed_mesh-nlcd-lc.exo" />
       <Parameter name="format" type="string" value="Exodus II" />
       <Parameter name="entity" type="string" value="CELL" />
     </ParameterList>
     <ParameterList name="NRCS-482838" type="ParameterList">
       <Parameter name="region type" type="string" value="labeled set" />
       <Parameter name="label" type="string" value="1005" />
-      <Parameter name="file" type="string" value="../../data/examples/BSF/processed/watershed_mesh.exo" />
+      <Parameter name="file" type="string" value="../../data/examples/BSF/processed/watershed_mesh-nlcd-lc.exo" />
       <Parameter name="format" type="string" value="Exodus II" />
       <Parameter name="entity" type="string" value="CELL" />
     </ParameterList>
     <ParameterList name="NRCS-482751" type="ParameterList">
       <Parameter name="region type" type="string" value="labeled set" />
       <Parameter name="label" type="string" value="1006" />
-      <Parameter name="file" type="string" value="../../data/examples/BSF/processed/watershed_mesh.exo" />
+      <Parameter name="file" type="string" value="../../data/examples/BSF/processed/watershed_mesh-nlcd-lc.exo" />
       <Parameter name="format" type="string" value="Exodus II" />
       <Parameter name="entity" type="string" value="CELL" />
     </ParameterList>
     <ParameterList name="NRCS-482841" type="ParameterList">
       <Parameter name="region type" type="string" value="labeled set" />
       <Parameter name="label" type="string" value="1007" />
-      <Parameter name="file" type="string" value="../../data/examples/BSF/processed/watershed_mesh.exo" />
+      <Parameter name="file" type="string" value="../../data/examples/BSF/processed/watershed_mesh-nlcd-lc.exo" />
       <Parameter name="format" type="string" value="Exodus II" />
       <Parameter name="entity" type="string" value="CELL" />
     </ParameterList>
     <ParameterList name="NRCS-482842" type="ParameterList">
       <Parameter name="region type" type="string" value="labeled set" />
       <Parameter name="label" type="string" value="1008" />
-      <Parameter name="file" type="string" value="../../data/examples/BSF/processed/watershed_mesh.exo" />
+      <Parameter name="file" type="string" value="../../data/examples/BSF/processed/watershed_mesh-nlcd-lc.exo" />
       <Parameter name="format" type="string" value="Exodus II" />
       <Parameter name="entity" type="string" value="CELL" />
     </ParameterList>
     <ParameterList name="NRCS-482820" type="ParameterList">
       <Parameter name="region type" type="string" value="labeled set" />
       <Parameter name="label" type="string" value="1009" />
-      <Parameter name="file" type="string" value="../../data/examples/BSF/processed/watershed_mesh.exo" />
+      <Parameter name="file" type="string" value="../../data/examples/BSF/processed/watershed_mesh-nlcd-lc.exo" />
       <Parameter name="format" type="string" value="Exodus II" />
       <Parameter name="entity" type="string" value="CELL" />
     </ParameterList>
     <ParameterList name="NRCS-482808" type="ParameterList">
       <Parameter name="region type" type="string" value="labeled set" />
       <Parameter name="label" type="string" value="1010" />
-      <Parameter name="file" type="string" value="../../data/examples/BSF/processed/watershed_mesh.exo" />
+      <Parameter name="file" type="string" value="../../data/examples/BSF/processed/watershed_mesh-nlcd-lc.exo" />
       <Parameter name="format" type="string" value="Exodus II" />
       <Parameter name="entity" type="string" value="CELL" />
     </ParameterList>
     <ParameterList name="NRCS-482818" type="ParameterList">
       <Parameter name="region type" type="string" value="labeled set" />
       <Parameter name="label" type="string" value="1011" />
-      <Parameter name="file" type="string" value="../../data/examples/BSF/processed/watershed_mesh.exo" />
+      <Parameter name="file" type="string" value="../../data/examples/BSF/processed/watershed_mesh-nlcd-lc.exo" />
       <Parameter name="format" type="string" value="Exodus II" />
       <Parameter name="entity" type="string" value="CELL" />
     </ParameterList>
     <ParameterList name="NRCS-623881" type="ParameterList">
       <Parameter name="region type" type="string" value="labeled set" />
       <Parameter name="label" type="string" value="1012" />
-      <Parameter name="file" type="string" value="../../data/examples/BSF/processed/watershed_mesh.exo" />
+      <Parameter name="file" type="string" value="../../data/examples/BSF/processed/watershed_mesh-nlcd-lc.exo" />
       <Parameter name="format" type="string" value="Exodus II" />
       <Parameter name="entity" type="string" value="CELL" />
     </ParameterList>
     <ParameterList name="NRCS-482765" type="ParameterList">
       <Parameter name="region type" type="string" value="labeled set" />
       <Parameter name="label" type="string" value="1013" />
-      <Parameter name="file" type="string" value="../../data/examples/BSF/processed/watershed_mesh.exo" />
+      <Parameter name="file" type="string" value="../../data/examples/BSF/processed/watershed_mesh-nlcd-lc.exo" />
       <Parameter name="format" type="string" value="Exodus II" />
       <Parameter name="entity" type="string" value="CELL" />
     </ParameterList>
     <ParameterList name="NRCS-482743" type="ParameterList">
       <Parameter name="region type" type="string" value="labeled set" />
       <Parameter name="label" type="string" value="1014" />
-      <Parameter name="file" type="string" value="../../data/examples/BSF/processed/watershed_mesh.exo" />
+      <Parameter name="file" type="string" value="../../data/examples/BSF/processed/watershed_mesh-nlcd-lc.exo" />
       <Parameter name="format" type="string" value="Exodus II" />
       <Parameter name="entity" type="string" value="CELL" />
     </ParameterList>
     <ParameterList name="NRCS-623906" type="ParameterList">
       <Parameter name="region type" type="string" value="labeled set" />
       <Parameter name="label" type="string" value="1015" />
-      <Parameter name="file" type="string" value="../../data/examples/BSF/processed/watershed_mesh.exo" />
+      <Parameter name="file" type="string" value="../../data/examples/BSF/processed/watershed_mesh-nlcd-lc.exo" />
       <Parameter name="format" type="string" value="Exodus II" />
       <Parameter name="entity" type="string" value="CELL" />
     </ParameterList>
     <ParameterList name="NRCS-482800" type="ParameterList">
       <Parameter name="region type" type="string" value="labeled set" />
       <Parameter name="label" type="string" value="1016" />
-      <Parameter name="file" type="string" value="../../data/examples/BSF/processed/watershed_mesh.exo" />
+      <Parameter name="file" type="string" value="../../data/examples/BSF/processed/watershed_mesh-nlcd-lc.exo" />
       <Parameter name="format" type="string" value="Exodus II" />
       <Parameter name="entity" type="string" value="CELL" />
     </ParameterList>
     <ParameterList name="NRCS-482801" type="ParameterList">
       <Parameter name="region type" type="string" value="labeled set" />
       <Parameter name="label" type="string" value="1017" />
-      <Parameter name="file" type="string" value="../../data/examples/BSF/processed/watershed_mesh.exo" />
+      <Parameter name="file" type="string" value="../../data/examples/BSF/processed/watershed_mesh-nlcd-lc.exo" />
       <Parameter name="format" type="string" value="Exodus II" />
       <Parameter name="entity" type="string" value="CELL" />
     </ParameterList>
     <ParameterList name="NRCS-482821" type="ParameterList">
       <Parameter name="region type" type="string" value="labeled set" />
       <Parameter name="label" type="string" value="1018" />
-      <Parameter name="file" type="string" value="../../data/examples/BSF/processed/watershed_mesh.exo" />
+      <Parameter name="file" type="string" value="../../data/examples/BSF/processed/watershed_mesh-nlcd-lc.exo" />
       <Parameter name="format" type="string" value="Exodus II" />
       <Parameter name="entity" type="string" value="CELL" />
     </ParameterList>
     <ParameterList name="NRCS-482760" type="ParameterList">
       <Parameter name="region type" type="string" value="labeled set" />
       <Parameter name="label" type="string" value="1019" />
-      <Parameter name="file" type="string" value="../../data/examples/BSF/processed/watershed_mesh.exo" />
+      <Parameter name="file" type="string" value="../../data/examples/BSF/processed/watershed_mesh-nlcd-lc.exo" />
       <Parameter name="format" type="string" value="Exodus II" />
       <Parameter name="entity" type="string" value="CELL" />
     </ParameterList>
     <ParameterList name="NRCS-482761" type="ParameterList">
       <Parameter name="region type" type="string" value="labeled set" />
       <Parameter name="label" type="string" value="1020" />
-      <Parameter name="file" type="string" value="../../data/examples/BSF/processed/watershed_mesh.exo" />
+      <Parameter name="file" type="string" value="../../data/examples/BSF/processed/watershed_mesh-nlcd-lc.exo" />
       <Parameter name="format" type="string" value="Exodus II" />
       <Parameter name="entity" type="string" value="CELL" />
     </ParameterList>
     <ParameterList name="NRCS-482806" type="ParameterList">
       <Parameter name="region type" type="string" value="labeled set" />
       <Parameter name="label" type="string" value="1021" />
-      <Parameter name="file" type="string" value="../../data/examples/BSF/processed/watershed_mesh.exo" />
+      <Parameter name="file" type="string" value="../../data/examples/BSF/processed/watershed_mesh-nlcd-lc.exo" />
       <Parameter name="format" type="string" value="Exodus II" />
       <Parameter name="entity" type="string" value="CELL" />
     </ParameterList>
     <ParameterList name="NRCS-482805" type="ParameterList">
       <Parameter name="region type" type="string" value="labeled set" />
       <Parameter name="label" type="string" value="1022" />
-      <Parameter name="file" type="string" value="../../data/examples/BSF/processed/watershed_mesh.exo" />
+      <Parameter name="file" type="string" value="../../data/examples/BSF/processed/watershed_mesh-nlcd-lc.exo" />
       <Parameter name="format" type="string" value="Exodus II" />
       <Parameter name="entity" type="string" value="CELL" />
     </ParameterList>
     <ParameterList name="NRCS-482744" type="ParameterList">
       <Parameter name="region type" type="string" value="labeled set" />
       <Parameter name="label" type="string" value="1023" />
-      <Parameter name="file" type="string" value="../../data/examples/BSF/processed/watershed_mesh.exo" />
+      <Parameter name="file" type="string" value="../../data/examples/BSF/processed/watershed_mesh-nlcd-lc.exo" />
       <Parameter name="format" type="string" value="Exodus II" />
       <Parameter name="entity" type="string" value="CELL" />
     </ParameterList>
     <ParameterList name="NRCS-482728" type="ParameterList">
       <Parameter name="region type" type="string" value="labeled set" />
       <Parameter name="label" type="string" value="1024" />
-      <Parameter name="file" type="string" value="../../data/examples/BSF/processed/watershed_mesh.exo" />
+      <Parameter name="file" type="string" value="../../data/examples/BSF/processed/watershed_mesh-nlcd-lc.exo" />
       <Parameter name="format" type="string" value="Exodus II" />
       <Parameter name="entity" type="string" value="CELL" />
     </ParameterList>
     <ParameterList name="NRCS-623882" type="ParameterList">
       <Parameter name="region type" type="string" value="labeled set" />
       <Parameter name="label" type="string" value="1025" />
-      <Parameter name="file" type="string" value="../../data/examples/BSF/processed/watershed_mesh.exo" />
+      <Parameter name="file" type="string" value="../../data/examples/BSF/processed/watershed_mesh-nlcd-lc.exo" />
       <Parameter name="format" type="string" value="Exodus II" />
       <Parameter name="entity" type="string" value="CELL" />
     </ParameterList>
     <ParameterList name="NRCS-482859" type="ParameterList">
       <Parameter name="region type" type="string" value="labeled set" />
       <Parameter name="label" type="string" value="1026" />
-      <Parameter name="file" type="string" value="../../data/examples/BSF/processed/watershed_mesh.exo" />
+      <Parameter name="file" type="string" value="../../data/examples/BSF/processed/watershed_mesh-nlcd-lc.exo" />
       <Parameter name="format" type="string" value="Exodus II" />
       <Parameter name="entity" type="string" value="CELL" />
     </ParameterList>
     <ParameterList name="NRCS-482729" type="ParameterList">
       <Parameter name="region type" type="string" value="labeled set" />
       <Parameter name="label" type="string" value="1027" />
-      <Parameter name="file" type="string" value="../../data/examples/BSF/processed/watershed_mesh.exo" />
+      <Parameter name="file" type="string" value="../../data/examples/BSF/processed/watershed_mesh-nlcd-lc.exo" />
       <Parameter name="format" type="string" value="Exodus II" />
       <Parameter name="entity" type="string" value="CELL" />
     </ParameterList>
     <ParameterList name="NRCS-482764" type="ParameterList">
       <Parameter name="region type" type="string" value="labeled set" />
       <Parameter name="label" type="string" value="1028" />
-      <Parameter name="file" type="string" value="../../data/examples/BSF/processed/watershed_mesh.exo" />
+      <Parameter name="file" type="string" value="../../data/examples/BSF/processed/watershed_mesh-nlcd-lc.exo" />
       <Parameter name="format" type="string" value="Exodus II" />
       <Parameter name="entity" type="string" value="CELL" />
     </ParameterList>
     <ParameterList name="NRCS-623891" type="ParameterList">
       <Parameter name="region type" type="string" value="labeled set" />
       <Parameter name="label" type="string" value="1029" />
-      <Parameter name="file" type="string" value="../../data/examples/BSF/processed/watershed_mesh.exo" />
+      <Parameter name="file" type="string" value="../../data/examples/BSF/processed/watershed_mesh-nlcd-lc.exo" />
       <Parameter name="format" type="string" value="Exodus II" />
       <Parameter name="entity" type="string" value="CELL" />
     </ParameterList>
     <ParameterList name="NRCS-482717" type="ParameterList">
       <Parameter name="region type" type="string" value="labeled set" />
       <Parameter name="label" type="string" value="1030" />
-      <Parameter name="file" type="string" value="../../data/examples/BSF/processed/watershed_mesh.exo" />
+      <Parameter name="file" type="string" value="../../data/examples/BSF/processed/watershed_mesh-nlcd-lc.exo" />
       <Parameter name="format" type="string" value="Exodus II" />
       <Parameter name="entity" type="string" value="CELL" />
     </ParameterList>
     <ParameterList name="NRCS-482847" type="ParameterList">
       <Parameter name="region type" type="string" value="labeled set" />
       <Parameter name="label" type="string" value="1031" />
-      <Parameter name="file" type="string" value="../../data/examples/BSF/processed/watershed_mesh.exo" />
+      <Parameter name="file" type="string" value="../../data/examples/BSF/processed/watershed_mesh-nlcd-lc.exo" />
       <Parameter name="format" type="string" value="Exodus II" />
       <Parameter name="entity" type="string" value="CELL" />
     </ParameterList>
     <ParameterList name="NRCS-482846" type="ParameterList">
       <Parameter name="region type" type="string" value="labeled set" />
       <Parameter name="label" type="string" value="1032" />
-      <Parameter name="file" type="string" value="../../data/examples/BSF/processed/watershed_mesh.exo" />
+      <Parameter name="file" type="string" value="../../data/examples/BSF/processed/watershed_mesh-nlcd-lc.exo" />
       <Parameter name="format" type="string" value="Exodus II" />
       <Parameter name="entity" type="string" value="CELL" />
     </ParameterList>
     <ParameterList name="NRCS-482845" type="ParameterList">
       <Parameter name="region type" type="string" value="labeled set" />
       <Parameter name="label" type="string" value="1033" />
-      <Parameter name="file" type="string" value="../../data/examples/BSF/processed/watershed_mesh.exo" />
+      <Parameter name="file" type="string" value="../../data/examples/BSF/processed/watershed_mesh-nlcd-lc.exo" />
       <Parameter name="format" type="string" value="Exodus II" />
       <Parameter name="entity" type="string" value="CELL" />
     </ParameterList>
     <ParameterList name="NRCS-482676" type="ParameterList">
       <Parameter name="region type" type="string" value="labeled set" />
       <Parameter name="label" type="string" value="1034" />
-      <Parameter name="file" type="string" value="../../data/examples/BSF/processed/watershed_mesh.exo" />
+      <Parameter name="file" type="string" value="../../data/examples/BSF/processed/watershed_mesh-nlcd-lc.exo" />
       <Parameter name="format" type="string" value="Exodus II" />
       <Parameter name="entity" type="string" value="CELL" />
     </ParameterList>
     <ParameterList name="NRCS-482856" type="ParameterList">
       <Parameter name="region type" type="string" value="labeled set" />
       <Parameter name="label" type="string" value="1035" />
-      <Parameter name="file" type="string" value="../../data/examples/BSF/processed/watershed_mesh.exo" />
+      <Parameter name="file" type="string" value="../../data/examples/BSF/processed/watershed_mesh-nlcd-lc.exo" />
       <Parameter name="format" type="string" value="Exodus II" />
       <Parameter name="entity" type="string" value="CELL" />
     </ParameterList>
     <ParameterList name="NRCS-482762" type="ParameterList">
       <Parameter name="region type" type="string" value="labeled set" />
       <Parameter name="label" type="string" value="1036" />
-      <Parameter name="file" type="string" value="../../data/examples/BSF/processed/watershed_mesh.exo" />
+      <Parameter name="file" type="string" value="../../data/examples/BSF/processed/watershed_mesh-nlcd-lc.exo" />
       <Parameter name="format" type="string" value="Exodus II" />
       <Parameter name="entity" type="string" value="CELL" />
     </ParameterList>
     <ParameterList name="NRCS-482723" type="ParameterList">
       <Parameter name="region type" type="string" value="labeled set" />
       <Parameter name="label" type="string" value="1037" />
-      <Parameter name="file" type="string" value="../../data/examples/BSF/processed/watershed_mesh.exo" />
+      <Parameter name="file" type="string" value="../../data/examples/BSF/processed/watershed_mesh-nlcd-lc.exo" />
       <Parameter name="format" type="string" value="Exodus II" />
       <Parameter name="entity" type="string" value="CELL" />
     </ParameterList>
     <ParameterList name="NRCS-623876" type="ParameterList">
       <Parameter name="region type" type="string" value="labeled set" />
       <Parameter name="label" type="string" value="1038" />
-      <Parameter name="file" type="string" value="../../data/examples/BSF/processed/watershed_mesh.exo" />
+      <Parameter name="file" type="string" value="../../data/examples/BSF/processed/watershed_mesh-nlcd-lc.exo" />
       <Parameter name="format" type="string" value="Exodus II" />
       <Parameter name="entity" type="string" value="CELL" />
     </ParameterList>
     <ParameterList name="NRCS-482704" type="ParameterList">
       <Parameter name="region type" type="string" value="labeled set" />
       <Parameter name="label" type="string" value="1039" />
-      <Parameter name="file" type="string" value="../../data/examples/BSF/processed/watershed_mesh.exo" />
+      <Parameter name="file" type="string" value="../../data/examples/BSF/processed/watershed_mesh-nlcd-lc.exo" />
       <Parameter name="format" type="string" value="Exodus II" />
       <Parameter name="entity" type="string" value="CELL" />
     </ParameterList>
     <ParameterList name="NRCS-482656" type="ParameterList">
       <Parameter name="region type" type="string" value="labeled set" />
       <Parameter name="label" type="string" value="1040" />
-      <Parameter name="file" type="string" value="../../data/examples/BSF/processed/watershed_mesh.exo" />
+      <Parameter name="file" type="string" value="../../data/examples/BSF/processed/watershed_mesh-nlcd-lc.exo" />
       <Parameter name="format" type="string" value="Exodus II" />
       <Parameter name="entity" type="string" value="CELL" />
     </ParameterList>
     <ParameterList name="NRCS-623879" type="ParameterList">
       <Parameter name="region type" type="string" value="labeled set" />
       <Parameter name="label" type="string" value="1041" />
-      <Parameter name="file" type="string" value="../../data/examples/BSF/processed/watershed_mesh.exo" />
+      <Parameter name="file" type="string" value="../../data/examples/BSF/processed/watershed_mesh-nlcd-lc.exo" />
       <Parameter name="format" type="string" value="Exodus II" />
       <Parameter name="entity" type="string" value="CELL" />
     </ParameterList>
     <ParameterList name="NRCS-482654" type="ParameterList">
       <Parameter name="region type" type="string" value="labeled set" />
       <Parameter name="label" type="string" value="1042" />
-      <Parameter name="file" type="string" value="../../data/examples/BSF/processed/watershed_mesh.exo" />
+      <Parameter name="file" type="string" value="../../data/examples/BSF/processed/watershed_mesh-nlcd-lc.exo" />
       <Parameter name="format" type="string" value="Exodus II" />
       <Parameter name="entity" type="string" value="CELL" />
     </ParameterList>
     <ParameterList name="NRCS-482703" type="ParameterList">
       <Parameter name="region type" type="string" value="labeled set" />
       <Parameter name="label" type="string" value="1043" />
-      <Parameter name="file" type="string" value="../../data/examples/BSF/processed/watershed_mesh.exo" />
+      <Parameter name="file" type="string" value="../../data/examples/BSF/processed/watershed_mesh-nlcd-lc.exo" />
       <Parameter name="format" type="string" value="Exodus II" />
       <Parameter name="entity" type="string" value="CELL" />
     </ParameterList>
     <ParameterList name="NRCS-482708" type="ParameterList">
       <Parameter name="region type" type="string" value="labeled set" />
       <Parameter name="label" type="string" value="1044" />
-      <Parameter name="file" type="string" value="../../data/examples/BSF/processed/watershed_mesh.exo" />
+      <Parameter name="file" type="string" value="../../data/examples/BSF/processed/watershed_mesh-nlcd-lc.exo" />
       <Parameter name="format" type="string" value="Exodus II" />
       <Parameter name="entity" type="string" value="CELL" />
     </ParameterList>
     <ParameterList name="NRCS-482657" type="ParameterList">
       <Parameter name="region type" type="string" value="labeled set" />
       <Parameter name="label" type="string" value="1045" />
-      <Parameter name="file" type="string" value="../../data/examples/BSF/processed/watershed_mesh.exo" />
+      <Parameter name="file" type="string" value="../../data/examples/BSF/processed/watershed_mesh-nlcd-lc.exo" />
       <Parameter name="format" type="string" value="Exodus II" />
       <Parameter name="entity" type="string" value="CELL" />
     </ParameterList>
     <ParameterList name="NRCS-482797" type="ParameterList">
       <Parameter name="region type" type="string" value="labeled set" />
       <Parameter name="label" type="string" value="1046" />
-      <Parameter name="file" type="string" value="../../data/examples/BSF/processed/watershed_mesh.exo" />
+      <Parameter name="file" type="string" value="../../data/examples/BSF/processed/watershed_mesh-nlcd-lc.exo" />
       <Parameter name="format" type="string" value="Exodus II" />
       <Parameter name="entity" type="string" value="CELL" />
     </ParameterList>
     <ParameterList name="NRCS-482799" type="ParameterList">
       <Parameter name="region type" type="string" value="labeled set" />
       <Parameter name="label" type="string" value="1047" />
-      <Parameter name="file" type="string" value="../../data/examples/BSF/processed/watershed_mesh.exo" />
+      <Parameter name="file" type="string" value="../../data/examples/BSF/processed/watershed_mesh-nlcd-lc.exo" />
       <Parameter name="format" type="string" value="Exodus II" />
       <Parameter name="entity" type="string" value="CELL" />
     </ParameterList>
     <ParameterList name="NRCS-482689" type="ParameterList">
       <Parameter name="region type" type="string" value="labeled set" />
       <Parameter name="label" type="string" value="1048" />
-      <Parameter name="file" type="string" value="../../data/examples/BSF/processed/watershed_mesh.exo" />
+      <Parameter name="file" type="string" value="../../data/examples/BSF/processed/watershed_mesh-nlcd-lc.exo" />
       <Parameter name="format" type="string" value="Exodus II" />
       <Parameter name="entity" type="string" value="CELL" />
     </ParameterList>
     <ParameterList name="NRCS-482772" type="ParameterList">
       <Parameter name="region type" type="string" value="labeled set" />
       <Parameter name="label" type="string" value="1049" />
-      <Parameter name="file" type="string" value="../../data/examples/BSF/processed/watershed_mesh.exo" />
+      <Parameter name="file" type="string" value="../../data/examples/BSF/processed/watershed_mesh-nlcd-lc.exo" />
       <Parameter name="format" type="string" value="Exodus II" />
       <Parameter name="entity" type="string" value="CELL" />
     </ParameterList>
     <ParameterList name="NRCS-482732" type="ParameterList">
       <Parameter name="region type" type="string" value="labeled set" />
       <Parameter name="label" type="string" value="1050" />
-      <Parameter name="file" type="string" value="../../data/examples/BSF/processed/watershed_mesh.exo" />
+      <Parameter name="file" type="string" value="../../data/examples/BSF/processed/watershed_mesh-nlcd-lc.exo" />
       <Parameter name="format" type="string" value="Exodus II" />
       <Parameter name="entity" type="string" value="CELL" />
     </ParameterList>
     <ParameterList name="NRCS-623870" type="ParameterList">
       <Parameter name="region type" type="string" value="labeled set" />
       <Parameter name="label" type="string" value="1051" />
-      <Parameter name="file" type="string" value="../../data/examples/BSF/processed/watershed_mesh.exo" />
+      <Parameter name="file" type="string" value="../../data/examples/BSF/processed/watershed_mesh-nlcd-lc.exo" />
       <Parameter name="format" type="string" value="Exodus II" />
       <Parameter name="entity" type="string" value="CELL" />
     </ParameterList>
     <ParameterList name="NRCS-482673" type="ParameterList">
       <Parameter name="region type" type="string" value="labeled set" />
       <Parameter name="label" type="string" value="1052" />
-      <Parameter name="file" type="string" value="../../data/examples/BSF/processed/watershed_mesh.exo" />
+      <Parameter name="file" type="string" value="../../data/examples/BSF/processed/watershed_mesh-nlcd-lc.exo" />
       <Parameter name="format" type="string" value="Exodus II" />
       <Parameter name="entity" type="string" value="CELL" />
     </ParameterList>
     <ParameterList name="NRCS-503870" type="ParameterList">
       <Parameter name="region type" type="string" value="labeled set" />
       <Parameter name="label" type="string" value="1053" />
-      <Parameter name="file" type="string" value="../../data/examples/BSF/processed/watershed_mesh.exo" />
+      <Parameter name="file" type="string" value="../../data/examples/BSF/processed/watershed_mesh-nlcd-lc.exo" />
       <Parameter name="format" type="string" value="Exodus II" />
       <Parameter name="entity" type="string" value="CELL" />
     </ParameterList>
     <ParameterList name="NRCS-482825" type="ParameterList">
       <Parameter name="region type" type="string" value="labeled set" />
       <Parameter name="label" type="string" value="1054" />
-      <Parameter name="file" type="string" value="../../data/examples/BSF/processed/watershed_mesh.exo" />
+      <Parameter name="file" type="string" value="../../data/examples/BSF/processed/watershed_mesh-nlcd-lc.exo" />
       <Parameter name="format" type="string" value="Exodus II" />
       <Parameter name="entity" type="string" value="CELL" />
     </ParameterList>
     <ParameterList name="NRCS-503819" type="ParameterList">
       <Parameter name="region type" type="string" value="labeled set" />
       <Parameter name="label" type="string" value="1055" />
-      <Parameter name="file" type="string" value="../../data/examples/BSF/processed/watershed_mesh.exo" />
+      <Parameter name="file" type="string" value="../../data/examples/BSF/processed/watershed_mesh-nlcd-lc.exo" />
       <Parameter name="format" type="string" value="Exodus II" />
       <Parameter name="entity" type="string" value="CELL" />
     </ParameterList>
     <ParameterList name="NRCS-482659" type="ParameterList">
       <Parameter name="region type" type="string" value="labeled set" />
       <Parameter name="label" type="string" value="1056" />
-      <Parameter name="file" type="string" value="../../data/examples/BSF/processed/watershed_mesh.exo" />
+      <Parameter name="file" type="string" value="../../data/examples/BSF/processed/watershed_mesh-nlcd-lc.exo" />
       <Parameter name="format" type="string" value="Exodus II" />
       <Parameter name="entity" type="string" value="CELL" />
     </ParameterList>
     <ParameterList name="NRCS-482712" type="ParameterList">
       <Parameter name="region type" type="string" value="labeled set" />
       <Parameter name="label" type="string" value="1057" />
-      <Parameter name="file" type="string" value="../../data/examples/BSF/processed/watershed_mesh.exo" />
+      <Parameter name="file" type="string" value="../../data/examples/BSF/processed/watershed_mesh-nlcd-lc.exo" />
       <Parameter name="format" type="string" value="Exodus II" />
       <Parameter name="entity" type="string" value="CELL" />
     </ParameterList>
     <ParameterList name="NRCS-482688" type="ParameterList">
       <Parameter name="region type" type="string" value="labeled set" />
       <Parameter name="label" type="string" value="1058" />
-      <Parameter name="file" type="string" value="../../data/examples/BSF/processed/watershed_mesh.exo" />
+      <Parameter name="file" type="string" value="../../data/examples/BSF/processed/watershed_mesh-nlcd-lc.exo" />
       <Parameter name="format" type="string" value="Exodus II" />
       <Parameter name="entity" type="string" value="CELL" />
     </ParameterList>
     <ParameterList name="NRCS-623887" type="ParameterList">
       <Parameter name="region type" type="string" value="labeled set" />
       <Parameter name="label" type="string" value="1059" />
-      <Parameter name="file" type="string" value="../../data/examples/BSF/processed/watershed_mesh.exo" />
+      <Parameter name="file" type="string" value="../../data/examples/BSF/processed/watershed_mesh-nlcd-lc.exo" />
       <Parameter name="format" type="string" value="Exodus II" />
       <Parameter name="entity" type="string" value="CELL" />
     </ParameterList>
     <ParameterList name="NRCS-482660" type="ParameterList">
       <Parameter name="region type" type="string" value="labeled set" />
       <Parameter name="label" type="string" value="1060" />
-      <Parameter name="file" type="string" value="../../data/examples/BSF/processed/watershed_mesh.exo" />
+      <Parameter name="file" type="string" value="../../data/examples/BSF/processed/watershed_mesh-nlcd-lc.exo" />
       <Parameter name="format" type="string" value="Exodus II" />
       <Parameter name="entity" type="string" value="CELL" />
     </ParameterList>
     <ParameterList name="NRCS-482686" type="ParameterList">
       <Parameter name="region type" type="string" value="labeled set" />
       <Parameter name="label" type="string" value="1061" />
-      <Parameter name="file" type="string" value="../../data/examples/BSF/processed/watershed_mesh.exo" />
+      <Parameter name="file" type="string" value="../../data/examples/BSF/processed/watershed_mesh-nlcd-lc.exo" />
       <Parameter name="format" type="string" value="Exodus II" />
       <Parameter name="entity" type="string" value="CELL" />
     </ParameterList>
     <ParameterList name="NRCS-623884" type="ParameterList">
       <Parameter name="region type" type="string" value="labeled set" />
       <Parameter name="label" type="string" value="1062" />
-      <Parameter name="file" type="string" value="../../data/examples/BSF/processed/watershed_mesh.exo" />
+      <Parameter name="file" type="string" value="../../data/examples/BSF/processed/watershed_mesh-nlcd-lc.exo" />
       <Parameter name="format" type="string" value="Exodus II" />
       <Parameter name="entity" type="string" value="CELL" />
     </ParameterList>
     <ParameterList name="NRCS-623885" type="ParameterList">
       <Parameter name="region type" type="string" value="labeled set" />
       <Parameter name="label" type="string" value="1063" />
-      <Parameter name="file" type="string" value="../../data/examples/BSF/processed/watershed_mesh.exo" />
+      <Parameter name="file" type="string" value="../../data/examples/BSF/processed/watershed_mesh-nlcd-lc.exo" />
       <Parameter name="format" type="string" value="Exodus II" />
       <Parameter name="entity" type="string" value="CELL" />
     </ParameterList>
     <ParameterList name="NRCS-482687" type="ParameterList">
       <Parameter name="region type" type="string" value="labeled set" />
       <Parameter name="label" type="string" value="1064" />
-      <Parameter name="file" type="string" value="../../data/examples/BSF/processed/watershed_mesh.exo" />
+      <Parameter name="file" type="string" value="../../data/examples/BSF/processed/watershed_mesh-nlcd-lc.exo" />
       <Parameter name="format" type="string" value="Exodus II" />
       <Parameter name="entity" type="string" value="CELL" />
     </ParameterList>
     <ParameterList name="NRCS-623878" type="ParameterList">
       <Parameter name="region type" type="string" value="labeled set" />
       <Parameter name="label" type="string" value="1065" />
-      <Parameter name="file" type="string" value="../../data/examples/BSF/processed/watershed_mesh.exo" />
+      <Parameter name="file" type="string" value="../../data/examples/BSF/processed/watershed_mesh-nlcd-lc.exo" />
       <Parameter name="format" type="string" value="Exodus II" />
       <Parameter name="entity" type="string" value="CELL" />
     </ParameterList>
     <ParameterList name="NRCS-482661" type="ParameterList">
       <Parameter name="region type" type="string" value="labeled set" />
       <Parameter name="label" type="string" value="1066" />
-      <Parameter name="file" type="string" value="../../data/examples/BSF/processed/watershed_mesh.exo" />
+      <Parameter name="file" type="string" value="../../data/examples/BSF/processed/watershed_mesh-nlcd-lc.exo" />
       <Parameter name="format" type="string" value="Exodus II" />
       <Parameter name="entity" type="string" value="CELL" />
     </ParameterList>
     <ParameterList name="NRCS-482822" type="ParameterList">
       <Parameter name="region type" type="string" value="labeled set" />
       <Parameter name="label" type="string" value="1067" />
-      <Parameter name="file" type="string" value="../../data/examples/BSF/processed/watershed_mesh.exo" />
+      <Parameter name="file" type="string" value="../../data/examples/BSF/processed/watershed_mesh-nlcd-lc.exo" />
       <Parameter name="format" type="string" value="Exodus II" />
       <Parameter name="entity" type="string" value="CELL" />
     </ParameterList>
     <ParameterList name="NRCS-482863" type="ParameterList">
       <Parameter name="region type" type="string" value="labeled set" />
       <Parameter name="label" type="string" value="1068" />
-      <Parameter name="file" type="string" value="../../data/examples/BSF/processed/watershed_mesh.exo" />
+      <Parameter name="file" type="string" value="../../data/examples/BSF/processed/watershed_mesh-nlcd-lc.exo" />
       <Parameter name="format" type="string" value="Exodus II" />
       <Parameter name="entity" type="string" value="CELL" />
     </ParameterList>
     <ParameterList name="NRCS-482862" type="ParameterList">
       <Parameter name="region type" type="string" value="labeled set" />
       <Parameter name="label" type="string" value="1069" />
-      <Parameter name="file" type="string" value="../../data/examples/BSF/processed/watershed_mesh.exo" />
+      <Parameter name="file" type="string" value="../../data/examples/BSF/processed/watershed_mesh-nlcd-lc.exo" />
       <Parameter name="format" type="string" value="Exodus II" />
       <Parameter name="entity" type="string" value="CELL" />
     </ParameterList>
     <ParameterList name="NRCS-482775" type="ParameterList">
       <Parameter name="region type" type="string" value="labeled set" />
       <Parameter name="label" type="string" value="1070" />
-      <Parameter name="file" type="string" value="../../data/examples/BSF/processed/watershed_mesh.exo" />
+      <Parameter name="file" type="string" value="../../data/examples/BSF/processed/watershed_mesh-nlcd-lc.exo" />
       <Parameter name="format" type="string" value="Exodus II" />
       <Parameter name="entity" type="string" value="CELL" />
     </ParameterList>
     <ParameterList name="NRCS-482864" type="ParameterList">
       <Parameter name="region type" type="string" value="labeled set" />
       <Parameter name="label" type="string" value="1071" />
-      <Parameter name="file" type="string" value="../../data/examples/BSF/processed/watershed_mesh.exo" />
+      <Parameter name="file" type="string" value="../../data/examples/BSF/processed/watershed_mesh-nlcd-lc.exo" />
       <Parameter name="format" type="string" value="Exodus II" />
       <Parameter name="entity" type="string" value="CELL" />
     </ParameterList>
     <ParameterList name="NRCS-482757" type="ParameterList">
       <Parameter name="region type" type="string" value="labeled set" />
       <Parameter name="label" type="string" value="1072" />
-      <Parameter name="file" type="string" value="../../data/examples/BSF/processed/watershed_mesh.exo" />
+      <Parameter name="file" type="string" value="../../data/examples/BSF/processed/watershed_mesh-nlcd-lc.exo" />
       <Parameter name="format" type="string" value="Exodus II" />
       <Parameter name="entity" type="string" value="CELL" />
     </ParameterList>
     <ParameterList name="NRCS-482718" type="ParameterList">
       <Parameter name="region type" type="string" value="labeled set" />
       <Parameter name="label" type="string" value="1073" />
-      <Parameter name="file" type="string" value="../../data/examples/BSF/processed/watershed_mesh.exo" />
+      <Parameter name="file" type="string" value="../../data/examples/BSF/processed/watershed_mesh-nlcd-lc.exo" />
       <Parameter name="format" type="string" value="Exodus II" />
       <Parameter name="entity" type="string" value="CELL" />
     </ParameterList>
     <ParameterList name="NRCS-482719" type="ParameterList">
       <Parameter name="region type" type="string" value="labeled set" />
       <Parameter name="label" type="string" value="1074" />
-      <Parameter name="file" type="string" value="../../data/examples/BSF/processed/watershed_mesh.exo" />
+      <Parameter name="file" type="string" value="../../data/examples/BSF/processed/watershed_mesh-nlcd-lc.exo" />
       <Parameter name="format" type="string" value="Exodus II" />
       <Parameter name="entity" type="string" value="CELL" />
     </ParameterList>
     <ParameterList name="NRCS-482685" type="ParameterList">
       <Parameter name="region type" type="string" value="labeled set" />
       <Parameter name="label" type="string" value="1075" />
-      <Parameter name="file" type="string" value="../../data/examples/BSF/processed/watershed_mesh.exo" />
+      <Parameter name="file" type="string" value="../../data/examples/BSF/processed/watershed_mesh-nlcd-lc.exo" />
       <Parameter name="format" type="string" value="Exodus II" />
       <Parameter name="entity" type="string" value="CELL" />
     </ParameterList>
     <ParameterList name="NRCS-482692" type="ParameterList">
       <Parameter name="region type" type="string" value="labeled set" />
       <Parameter name="label" type="string" value="1076" />
-      <Parameter name="file" type="string" value="../../data/examples/BSF/processed/watershed_mesh.exo" />
+      <Parameter name="file" type="string" value="../../data/examples/BSF/processed/watershed_mesh-nlcd-lc.exo" />
       <Parameter name="format" type="string" value="Exodus II" />
       <Parameter name="entity" type="string" value="CELL" />
     </ParameterList>
     <ParameterList name="NRCS-482792" type="ParameterList">
       <Parameter name="region type" type="string" value="labeled set" />
       <Parameter name="label" type="string" value="1077" />
-      <Parameter name="file" type="string" value="../../data/examples/BSF/processed/watershed_mesh.exo" />
+      <Parameter name="file" type="string" value="../../data/examples/BSF/processed/watershed_mesh-nlcd-lc.exo" />
       <Parameter name="format" type="string" value="Exodus II" />
       <Parameter name="entity" type="string" value="CELL" />
     </ParameterList>
     <ParameterList name="NRCS-482791" type="ParameterList">
       <Parameter name="region type" type="string" value="labeled set" />
       <Parameter name="label" type="string" value="1078" />
-      <Parameter name="file" type="string" value="../../data/examples/BSF/processed/watershed_mesh.exo" />
+      <Parameter name="file" type="string" value="../../data/examples/BSF/processed/watershed_mesh-nlcd-lc.exo" />
       <Parameter name="format" type="string" value="Exodus II" />
       <Parameter name="entity" type="string" value="CELL" />
     </ParameterList>
     <ParameterList name="NRCS-482789" type="ParameterList">
       <Parameter name="region type" type="string" value="labeled set" />
       <Parameter name="label" type="string" value="1079" />
-      <Parameter name="file" type="string" value="../../data/examples/BSF/processed/watershed_mesh.exo" />
+      <Parameter name="file" type="string" value="../../data/examples/BSF/processed/watershed_mesh-nlcd-lc.exo" />
       <Parameter name="format" type="string" value="Exodus II" />
       <Parameter name="entity" type="string" value="CELL" />
     </ParameterList>
     <ParameterList name="NRCS-623912" type="ParameterList">
       <Parameter name="region type" type="string" value="labeled set" />
       <Parameter name="label" type="string" value="1080" />
-      <Parameter name="file" type="string" value="../../data/examples/BSF/processed/watershed_mesh.exo" />
+      <Parameter name="file" type="string" value="../../data/examples/BSF/processed/watershed_mesh-nlcd-lc.exo" />
       <Parameter name="format" type="string" value="Exodus II" />
       <Parameter name="entity" type="string" value="CELL" />
     </ParameterList>
     <ParameterList name="NRCS-623873" type="ParameterList">
       <Parameter name="region type" type="string" value="labeled set" />
       <Parameter name="label" type="string" value="1081" />
-      <Parameter name="file" type="string" value="../../data/examples/BSF/processed/watershed_mesh.exo" />
+      <Parameter name="file" type="string" value="../../data/examples/BSF/processed/watershed_mesh-nlcd-lc.exo" />
       <Parameter name="format" type="string" value="Exodus II" />
       <Parameter name="entity" type="string" value="CELL" />
     </ParameterList>
     <ParameterList name="bedrock" type="ParameterList">
       <Parameter name="region type" type="string" value="labeled set" />
       <Parameter name="label" type="string" value="999" />
-      <Parameter name="file" type="string" value="../../data/examples/BSF/processed/watershed_mesh.exo" />
+      <Parameter name="file" type="string" value="../../data/examples/BSF/processed/watershed_mesh-nlcd-lc.exo" />
       <Parameter name="format" type="string" value="Exodus II" />
       <Parameter name="entity" type="string" value="CELL" />
     </ParameterList>
